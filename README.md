@@ -9,7 +9,7 @@ distributed systems class exercises
 ```
 sudo apt-get install protobuf-compiler
 ```
-also installing the specific one for the language used to develop the task, python in my case
+also installing the specific one for the language used to develop the tasks, python3 in my case
 ```
 sudo apt-get install python3-protobuf
 ```  
