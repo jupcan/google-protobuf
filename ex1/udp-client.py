@@ -18,3 +18,4 @@ student.lastname = "Perea Campos"
 
 data = student.SerializeToString()
 sock.sendto(data, destination)
+sock.close()
