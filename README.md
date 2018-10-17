@@ -13,7 +13,7 @@ also installing the specific one for the language used to develop the task, pyth
 ```
 sudo apt-get install python3-protobuf
 ```  
-*it can also be installed from the [official googles repository](https://github.com/protocolbuffers/protobuf)*    
+*it can also be installed from the [official googles' repository](https://github.com/protocolbuffers/protobuf)*    
 in ordet to generate the stubs from a .proto file we use
 ```
 protoc -I . --python_out=. sensor.proto
