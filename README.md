@@ -16,5 +16,5 @@ sudo apt-get install python3-protobuf
 it can also be installed from the [official googles' repository](https://github.com/protocolbuffers/protobuf)    
 in ordet to generate the stubs from a .proto file we use
 ```
-protoc -I . --python_out=. sensor.proto
+protoc -I . --python_out=path file.proto
 ```
