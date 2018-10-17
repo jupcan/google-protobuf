@@ -11,10 +11,10 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 destination = (sys.argv[1], 2000)
 
 student = student_pb2.Student()
-student.DNI = "71229899A"
+student.DNI = "dni"
 student.type = student_pb2.Student.PASS
 student.firstname = "Juan"
-student.lastname = "Perea Campos"
+student.lastname = "Perea"
 
 data = student.SerializeToString()
 sock.sendto(data, destination)
