@@ -1,0 +1,26 @@
+syntax = "proto3";
+package exercise;
+
+service Ident {
+  rpc getID (GetIdRequest) returns (GetIdReply) {}
+}
+
+message GetIdRequest {}
+  
+message GetIdReply {
+  string dni = 1;
+  string fullname = 2;
+}
+
+service Check {
+  rpc checkme (CheckmeRequest) returns (CheckmeReply) {}
+}
+
+message CheckmeRequest {
+  string host = 1;
+  int32 port = 2;
+}
+
+message CheckmeReply {
+  bool result = 2;
+}
