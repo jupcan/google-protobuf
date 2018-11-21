@@ -11,7 +11,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 destination = (sys.argv[1], 2000)
 
 student = student_pb2.Student()
-student.DNI = "dni"
+student.DNI = "00000000A-Z"
 student.type = student_pb2.Student.PASS
 student.firstname = "Juan"
 student.lastname = "Perea"

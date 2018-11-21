@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 # -*- coding:utf-8; mode:python -*-
-from concurrent import futures
 import time
 import grpc
 import exercise_pb2
 import exercise_pb2_grpc
+from concurrent import futures
 
 DAY_SECONDS = 24*60*60
 
 class Ident(exercise_pb2_grpc.IdentServicer):
     def getID (self, request, context):
-        DNI="71229899A"
-        fname="Juan Perea Campos"
+        DNI="00000000A-Z"
+        fname="Juan Perea"
         return exercise_pb2.GetIdReply(dni=DNI, fullname=fname)
 
 server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
