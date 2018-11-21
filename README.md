@@ -1,10 +1,10 @@
 # google-protobuf
 distributed systems class exercises  
-> use of google [ptotocol buffers](https://developers.google.com/protocol-buffers/?hl=es-419) to solve several tasks specified by the teacher - [uclm](https://www.uclm.es/) computer science  
+> use of google [ptotocol buffers](https://developers.google.com/protocol-buffers) to solve several tasks specified by the teacher - [uclm](https://www.uclm.es/) computer science  
 
 ## installation
 ### task1
-[**protobuf compiler**](https://developers.google.com/protocol-buffers/) available in all major distributions and the one for python3 in my case
+**protobuf compiler** available in all major distributions and the one for python3 in my case
 ```
 sudo apt-get install protobuf-compiler python3-protobuf
 ```
