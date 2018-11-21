@@ -9,7 +9,7 @@ import exercise_pb2_grpc
 DAY_SECONDS = 24*60*60
 
 class Check(exercise_pb2_grpc.CheckServicer):
-    def checkme (self, request, context):
+    def checkme(self, request, context):
         return exercise_pb2.CheckmeReply()
 
 server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
