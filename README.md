@@ -4,7 +4,7 @@ distributed systems class exercises
 
 ## installation
 ### task1
-**protobuf compiler** available in all major distributions and the one for python3 in my case
+[**protobuf compiler**](https://developers.google.com/protocol-buffers/) available in all major distributions and the one for python3 in my case
 ```
 sudo apt-get install protobuf-compiler python3-protobuf
 ```
