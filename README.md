@@ -15,7 +15,7 @@ in ordet to generate the stubs from a .proto file we use
 protoc -I . --python_out=path file.proto
 ```
 ### task2
-[**gRPC**](https://grpc.io/) remote procedure call system initially developed at Google
+[**gRPC**](https://grpc.io/) remote procedure call system initially developed at google
 ```
 pip3 install grpcio grpcio-tools
 ```
