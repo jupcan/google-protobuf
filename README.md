@@ -19,3 +19,21 @@ protoc -I . --python_out=path file.proto
 ```
 pip3 install grpcio grpcio-tools
 ```
+### task3
+eclipse paho [**mqtt**](https://pypi.org/project/paho-mqtt/) python client library implementing v3.1 and v3.1.1 of mqtt protocol
+```
+pip3 install paho-mqtt
+```
+mosquitto from ubuntus' default software repository
+```
+sudo apt-get install mosquitto mosquitto-clients
+```
+assure broker is running by restarting it
+```
+sudo service mosquitto restart
+```
+### task4
+[**zeroc ice**](https://doc.zeroc.com/ice/3.7/release-notes/using-the-python-distribution) python client
+```
+pip3 install zeroc-ice
+```
