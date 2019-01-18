@@ -33,7 +33,7 @@ assure broker is running by restarting it
 sudo service mosquitto restart
 ```
 ### task4
-[**zeroc ice**](https://doc.zeroc.com/ice/3.7/release-notes/using-the-python-distribution) python client
+[**zeroc ice**](https://doc.zeroc.com/ice/3.7/release-notes/using-the-python-distribution) python client from pip source distribution
 ```
 pip3 install zeroc-ice
 ```
